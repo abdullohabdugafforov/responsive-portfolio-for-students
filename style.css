@@ -94,6 +94,7 @@ header {
     border-top: 0.5px solid gray;
     background-color: #43454D;
     padding: 64px 128px 128px;
+    position: relative;
 }
 
 header h2 {
@@ -115,7 +116,91 @@ header h2 {
     border: 1px solid #ffffff;
     padding: 37px 22px 37px 24px;
     border-radius: 160px 0 160px ;
-    
+    min-width: 320px;
+}
+
+.hero-leaf div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.hero-leaf div img{
+    margin-bottom: 16px;
+}
+
+.hero-leaf div h3 {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.hero-leaf div p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.hero-leaf ul {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-leaf ul li {
+    list-style: none;
+}
+
+.hero-leaf ul li a {
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+.hero-leaf ul li:nth-child(5) {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.hero-leaf ul li:nth-child(5) span{
+    background-color: #12F7D6;
+    padding: 0 8px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.download {
+    background-color: #ffffff;
+    padding: 16px 32px;
+    border-radius: 32px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    max-width: 227px;
+    color: #292F36;
+    text-decoration: none;
+    /* kamil 2 */
+    /* zafar 2 */
+}
+
+.sidebar {
+    position: absolute;
+    top: 64px;
+    left: 64px;
+    background-color: #1A1E23;
+    padding: 8px 12px;
+    border-radius: 40px;
+    border: 1px solid #ffffff;
+}
+
+.sidebar li {
+    list-style: none;
+
 }
 
 /* / Header */
