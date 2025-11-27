@@ -82,4 +82,40 @@ nav ul input {
     .search input {
         display: none;
     }
+
+    .search img {
+        display: none;
+    }
 }
+
+
+/* Header */
+header {
+    border-top: 0.5px solid gray;
+    background-color: #43454D;
+    padding: 64px 128px 128px;
+}
+
+header h2 {
+    font-size: 117px;
+    text-align: center;
+    color: #98FAEC;
+    margin-bottom: 64px;
+}
+
+.hero-container {
+    padding: 0 128px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}  
+
+.hero-leaf {
+    background-color: #292F36;
+    border: 1px solid #ffffff;
+    padding: 37px 22px 37px 24px;
+    border-radius: 160px 0 160px ;
+    
+}
+
+/* / Header */
