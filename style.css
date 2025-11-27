@@ -98,6 +98,7 @@ header {
 }
 
 header h2 {
+    font-family: "Ubuntu", sans-serif;
     font-size: 117px;
     text-align: center;
     color: #98FAEC;
@@ -109,6 +110,7 @@ header h2 {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    gap: 128px;
 }  
 
 .hero-leaf {
@@ -184,8 +186,6 @@ header h2 {
     max-width: 227px;
     color: #292F36;
     text-decoration: none;
-    /* kamil 2 */
-    /* zafar 2 */
 }
 
 .sidebar {
@@ -200,7 +200,71 @@ header h2 {
 
 .sidebar li {
     list-style: none;
-
 }
 
+.hero-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+}
+
+.hero-info div:nth-child(2) {
+    background-color: #1A1E23;
+}
+
+.hero-info h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.hero-info h3 span {
+    color: #12F7D6;
+}
+
+.hero-info p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #ffffff;
+    /* margin: 64px 0 50px ; */
+}
+
+.hero-info div:nth-child(1) a{
+    color: #12F7D6;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: "IBM Plex Mono", monospace;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-info div:nth-child(2) {
+    border-radius: 80px;
+    padding: 48px 32px;
+}
+
+.hero-info div:nth-child(2) ul{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.hero-info div:nth-child(2) ul li{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "IBM Plex Mono", monospace;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-info div:nth-child(2) ul li span{
+    font-size: 48px;
+    color: #12F7D6;
+    font-family: "IBM Plex Mono", monospace;
+}
 /* / Header */
