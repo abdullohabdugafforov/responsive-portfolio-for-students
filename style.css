@@ -268,3 +268,67 @@ header h2 {
     font-family: "IBM Plex Mono", monospace;
 }
 /* / Header */
+
+/* About Me */
+.about {
+    padding: 128px;
+    background-color: #1A1E23;
+    background-image: url('./images/about-bg.png');
+    
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-info {
+    display: flex;
+    gap: 128px;
+    padding: 0px 65px 0 129px;
+    margin-top: 128px;
+}
+
+.about-info-text div:nth-child(1){
+    width: 367px;
+    padding: 16px 40px;
+    background-color: #1A1E23;
+    border: 1px solid #12F7D6;
+    border-radius: 40px 0 40px 0;
+    margin: 37px 0 64px;
+}
+
+.about-info-text div:nth-child(1) h3{
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.about-info-text div:nth-child(2){
+    background-color: #292F36;
+    border-radius: 40px;
+    padding: 58px 40px;
+}
+
+.about-info-text div:nth-child(2) h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 64px;
+    color: #12F7D6;
+    font-weight: 400;
+}
+
+.about-info-text div:nth-child(2) p{
+    font-size: 16px;
+    font-family: "IBM Plex Mono", monospace;
+    color: #ffffff;
+}
+
+.about-info-text div:nth-child(2) p span{
+    color: #12F7D6;
+}
+
+
+/* / About Me */
