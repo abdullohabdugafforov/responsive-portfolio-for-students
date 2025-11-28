@@ -196,6 +196,11 @@ header h2 {
     padding: 8px 12px;
     border-radius: 40px;
     border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
 }
 
 .sidebar li {
@@ -228,7 +233,6 @@ header h2 {
     font-family: "IBM Plex Mono", monospace;
     font-size: 16px;
     color: #ffffff;
-    /* margin: 64px 0 50px ; */
 }
 
 .hero-info div:nth-child(1) a{
@@ -271,10 +275,8 @@ header h2 {
 
 /* About Me */
 .about {
+    background-image: url('./images/about-bg.png');   
     padding: 128px;
-    background-color: #1A1E23;
-    background-image: url('./images/about-bg.png');
-    
 }
 
 .scroll {
@@ -332,3 +334,79 @@ header h2 {
 
 
 /* / About Me */
+
+/* Skills */
+.skills {
+    padding: 128px;
+    background-image: url('./images/skills-bg.png');
+}
+
+
+.skills-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-heading h5{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: #12F7D6;
+    padding: 64px 0 32px ;
+}
+
+.skills-heading h5{
+    background-image: url('./images/Line\ 22.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 0 144px;
+}
+
+.skills-heading p{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.skills-cards {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    margin: 64px 0 90px;
+}
+
+.skills-cards div {
+    background-color: #98FAEC;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border-left: 8px solid #0C73B8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    min-width: 296px;
+    min-height: 132px;
+}
+
+.skills-cards div p:nth-of-type(1){
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+}   
+
+.skills-cards div p:nth-of-type(2){
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+}
+
+.skills-hard ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+
+}
+
+/* / Skills */
