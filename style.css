@@ -88,6 +88,25 @@ nav ul input {
     }
 }
 
+@media screen and (max-width: 900px) {
+    nav {
+        padding: 24px;
+
+    }
+
+    .logo {
+        width: 153px;
+    }
+
+    .gap-32 a {
+        font-size: 16px;
+    }
+
+    .nav-social {
+        display: none;
+    }
+}
+
 
 /* Header */
 header {
@@ -282,7 +301,6 @@ header h2 {
 .scroll {
     display: flex;
     justify-content: center;
-
 }
 
 .about-info {
@@ -339,8 +357,14 @@ header h2 {
 .skills {
     padding: 128px;
     background-image: url('./images/skills-bg.png');
+    position: relative;
 }
 
+.slash {
+    position: absolute;
+    top: 128px;
+    right: 472px;
+}
 
 .skills-heading {
     display: flex;
@@ -359,7 +383,7 @@ header h2 {
 
 .skills-heading h5{
     background-image: url('./images/Line\ 22.png');
-    background-size: 200px;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0 144px;
 }
@@ -410,3 +434,144 @@ header h2 {
 }
 
 /* / Skills */
+
+/* Works */
+.works {
+    padding: 128px;
+    background-image: url('./images/works-bg.png');
+}
+
+.works .slider {
+    display: flex;
+    gap: 64px;
+    justify-self: center;
+    align-items: center;
+    margin-top: 64px;
+    position: relative;
+}
+
+.view {
+    position: absolute;
+    top: 64px;
+    right: 308px;
+    color: #12F7D6;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    padding: 8px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.view:after {
+    content: '';
+    background-image: url('./images/icon-mouse-pointer.png');
+    background-size: 50px;
+}
+
+/* / Works  */
+
+/* Footer */
+footer {
+    background-color: #1A1E23;
+
+}
+
+footer form {
+    margin: 102px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-leaf {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-leaf div{
+    padding: 16px 40px;
+    border-radius: 32px 0 32px ;
+    border: 1px solid #12F7D6;
+    width: 407px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 31px;
+    text-align: center;
+    color: #12F7D6;
+    margin-bottom: 64px;
+}
+
+.form-input {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
+
+footer form div:nth-child(2) div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+footer form div:nth-child(2) div label, .form-message div label{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #12F7D6;
+}   
+
+footer form div:nth-child(2) div input{
+    width: 496px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 8px;
+}
+
+.form-message {
+    display: flex;
+    justify-content: center;
+}
+
+.form-message div {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+}
+
+.form-message div {
+    width: 100%;
+}
+
+.form-message div input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 8px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+form button {
+    padding: 16px 32px;
+    background-color: #12F7D6;
+    border-radius: 32px;
+    max-width: 234px;
+}
+
+/* /Footer */
